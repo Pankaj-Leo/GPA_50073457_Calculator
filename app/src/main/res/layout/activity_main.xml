@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_gpaCalculatorHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="GPA 50073547 Calculator (0 to 100)"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/course1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:padding="10dp"
+        android:text="Course 1"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="12sp"
+
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_gpaCalculatorHeading" />
+
+    <EditText
+        android:id="@+id/input_course1"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/course1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/course1" />
+
+
+    <TextView
+        android:id="@+id/course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:padding="10dp"
+        android:text="Course 2"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="12sp"
+
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course1" />
+
+    <EditText
+        android:id="@+id/input_course2"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/course2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/course2" />
+
+
+    <TextView
+        android:id="@+id/course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:padding="10dp"
+        android:text="Course 3"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="12sp"
+
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course2" />
+
+    <EditText
+        android:id="@+id/input_course3"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/course3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/course3" />
+
+
+    <TextView
+        android:id="@+id/course4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:padding="10dp"
+        android:text="Course 4"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course3" />
+
+    <EditText
+        android:id="@+id/input_course4"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/course4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/course4" />
+
+    <TextView
+        android:id="@+id/course5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:padding="10dp"
+        android:text="Course 5"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course4" />
+
+
+
+    <EditText
+        android:id="@+id/input_course5"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/course5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/course5" />
+
+    <LinearLayout
+        android:id="@+id/extra_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/course5"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/clear_text"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:text="Clear"
+        android:textColor="?android:colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/button_compute"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extra_layout"
+        app:rippleColor="?android:colorAccent" />
+
+    <Button
+        android:id="@+id/button_compute"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Compute GPA"
+        app:layout_constraintBottom_toBottomOf="@+id/clear_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/clear_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extra_layout"
+        app:layout_constraintTop_toTopOf="@+id/clear_text" />
+
+
+    <TextView
+        android:id="@+id/GPA_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:text="GPA"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/GPA"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clear_text" />
+
+    <TextView
+        android:id="@+id/GPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="0.00"
+        android:textColor="?android:colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/GPA_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/GPA_text"
+        app:layout_constraintTop_toTopOf="@+id/GPA_text" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

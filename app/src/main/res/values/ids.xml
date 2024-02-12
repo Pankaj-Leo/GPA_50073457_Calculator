@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView_gpaCalculatorHeading" type="id" />
+    <item name="course1" type="id" />
+    <item name="input_course1" type="id" />
+    <item name="course2" type="id" />
+    <item name="input_course2" type="id" />
+    <item name="course3" type="id" />
+    <item name="input_course3" type="id" />
+    <item name="course4" type="id" />
+    <item name="input_course4" type="id" />
+    <item name="course5" type="id" />
+    <item name="input_course5" type="id" />
+    <item name="extra_layout" type="id" />
+    <item name="button_compute" type="id" />
+    <item name="GPA_text" type="id" />
+</resources>
